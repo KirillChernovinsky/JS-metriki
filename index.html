@@ -4,10 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
-    <div class='dc' id="elem" onclick="tegname()">
+    <button onclick="borde()">Показать толщину границы</button>   
+    <div id="elem">Пример элемента</div>
+    <div id="elem">
+        Текст элемента
+      </div>
+    
+    <div id="elem">
+        <p>Первый потомок</p>
+        <p>Второй потомок</p>
+    </div>
+
+    <div class='dc' id="elem" onclick="tegname()"> 
+        <p id="elem">afdsf</p>
         <p class="bebr">sacvdsvaadzfsd</p>
         <p>ывафыв</p>
     </div>
@@ -33,9 +46,24 @@
           <ul class="myList">
             <li></li>
         </ul>
+        
+        <p id="elem">asssa</p>
 
         <input type="text" id="inputField">
 <button id="cloneButton" onclick="cloneInput()">Клонировать</button>
+
+
+<div id="elem"></div>
+<button onclick="calculateThickness()">calcThink</button>
+
+
+<div id="elem" style="height: 300px; overflow: auto;">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+
+    <button onclick="pos()">Прокрутить</button>
+    <button id="button">Прокрутить вниз</button>
+    <button onclick="scrollPageUp()">Прокрутить вверх</button>
     <script src="index.js"></script>
 </body>
 </html>
